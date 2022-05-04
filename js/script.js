@@ -25,5 +25,5 @@ function add(){
 }
 
 clearButton.addEventListener('click', function() {
-	location.reload();
+	toDoContainer.innerHTML = "";
 })
