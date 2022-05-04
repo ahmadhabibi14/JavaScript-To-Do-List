@@ -5,6 +5,18 @@
     font-style: normal;
 }
 
+html::-webkit-scrollbar{
+  width: 0.8rem;
+}
+
+html::-webkit-scrollbar-track{
+  background: #232323;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: #ffff;
+}
+
 *::selection {
   background: #ffff;
   color: #232323;
